@@ -4,8 +4,8 @@ var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
 var config     = require('./config/config.json');
 var Session    = require('./modules/session');
+var Device     = require('./modules/device');
 var Devices    = require('./modules/devices');
-var Endpoints  = require('./modules/endpoints');
 
 // setup the DB connection
 mongoose.connect('mongodb://' + config.mongo.username + ':' + config.mongo.password + config.mongo.instance);
@@ -21,8 +21,8 @@ var router = express.Router();
 // use elliot middleware
 router.use(Session);
 
-// main router handler
-app.use('/api', Endpoints);
+// router handlers
+app.use('/api/devices', Devices);
 
 // catchall
 app.use('*',function(req, res) {
