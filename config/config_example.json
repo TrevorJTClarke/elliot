@@ -1,0 +1,7 @@
+{
+  "mongo": {
+    "username": "YOURUSERNAME",
+    "password": "YOURPASSWORD",
+    "instance": "@ab12345.mongolab.com:56789/DBNAME"
+  }
+}
