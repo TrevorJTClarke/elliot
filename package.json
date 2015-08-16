@@ -1,0 +1,35 @@
+{
+  "name": "elliot",
+  "version": "0.1.0",
+  "description": "The home Internet of Things API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorJTClarke/elliot.git"
+  },
+  "keywords": [
+    "IoT",
+    "Internet",
+    "of",
+    "Things",
+    "API",
+    "API",
+    "nodejs",
+    "IoT",
+    "Nodejs"
+  ],
+  "author": "@trevorjtclarke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrevorJTClarke/elliot/issues"
+  },
+  "homepage": "https://github.com/TrevorJTClarke/elliot#readme",
+  "devDependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.3"
+  }
+}
