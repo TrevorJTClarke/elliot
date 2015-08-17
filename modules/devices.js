@@ -20,7 +20,11 @@ module.exports = (function() {
       var device = new Device();
 
       // store the data needed
-      device.name = req.body.name;
+      for (var key in device) {
+        if (key !== '_id' && key !== '__v' && key !== 'updated' && req.body[key]) {
+          device[key] = req.body[key];
+        }
+      }
 
       // save the device
       device.save(function(err) {
@@ -59,7 +63,12 @@ module.exports = (function() {
       if (err)
         res.send(err);
 
-      device.name = req.body.name;
+      // store the data needed
+      for (var key in device) {
+        if (key !== '_id' && key !== '__v' && key !== 'updated' && req.body[key]) {
+          device[key] = req.body[key];
+        }
+      }
 
       // save the device
       device.save(function(err) {

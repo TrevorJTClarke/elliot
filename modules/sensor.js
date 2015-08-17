@@ -9,7 +9,7 @@ var Sensor = new Schema({
   value: String,
   updated: {
     type: Date,
-    default: Date.now
+    default: (+new Date())
   }
 });
 
