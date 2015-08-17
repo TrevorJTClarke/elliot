@@ -1,0 +1,42 @@
+/**
+ * Sensor Model Example
+ */
+{
+  "name": "Sensor Name",
+  "type": "temphumidity",
+  "primitive": "digital",
+  "valueType": "Number",
+  "value": 1,
+  "historyId": "jf024fj903fij43fjkrl",
+  "updated": 143248497589
+}
+
+{
+  "name": "LightSensor1",
+  "type": "lux",
+  "primitive": "analog",
+  "valueType": "Number",
+  "value": 217,
+  "historyId": "jf024fj903fij43fjkrl",
+  "updated": 143248497589
+}
+
+{
+  "name": "RelaySensor1",
+  "type": "relay",
+  "primitive": "analog",
+  "valueType": "Number",
+  "value": 0,
+  "historyId": "jf024fj903fij43fjkrl",
+  "updated": 143248497589
+}
+
+{
+  "name": "TempHumidity1",
+  "type": "temphumidity",
+  "primitive": "digital",
+  "valueType": "Fahrenheit",
+  "value": 78,
+  "historyId": "jf024fj903fij43fjkrl",
+  "updated": 143248497589
+}

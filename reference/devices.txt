@@ -2,15 +2,19 @@
  * Device Model Example
  */
 {
+  "capabilities": ["temperature", "relay", "current"],
   "name": "Device Name",
+  "sensors": ["659a8a086b87c9477f061868faf"],
+  "status": "online",
   "type": "outlet",
-  "capabilities": ["temperature", "humidity", "relay", "current"],
-  "status": "online"
+  "updated": 143248497589
 }
 
 {
- "name": "Device Name",
- "type": "monitor",
- "capabilities": ["temperature", "humidity", "lux"],
- "status": "offline"
+  "capabilities": ["temphumidity", "lux"],
+  "name": "DeviceMonitor1",
+  "sensors": ["659a8a086b87c9477f061868faf"],
+  "status": "offline",
+  "type": "monitor",
+  "updated": 143248497589
 }
