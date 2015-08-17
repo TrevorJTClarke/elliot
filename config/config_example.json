@@ -3,5 +3,14 @@
     "username": "YOURUSERNAME",
     "password": "YOURPASSWORD",
     "instance": "@ab12345.mongolab.com:56789/DBNAME"
+  },
+  "session": {
+    "Accept": "application/YOURNAMESPACE.v1+json",
+    "Authorization": "Token=GENERATEYOURJWTTOKEN",
+    "Content-Type": "application/json",
+    "X-Requested-With": "GENERATEMD5HASHDOMAIN"
+  },
+  "server": {
+    "port": 1337
   }
 }

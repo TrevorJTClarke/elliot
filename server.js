@@ -14,15 +14,11 @@ mongoose.connect('mongodb://' + config.mongo.username + ':' + config.mongo.passw
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+// router handlers, uses Session middleware
+app.use('/api/devices', Session, Devices);
+
 // base server setup
-var port = process.env.PORT || 1337;
-var router = express.Router();
-
-// use elliot middleware
-router.use(Session);
-
-// router handlers
-app.use('/api/devices', Devices);
+var port = process.env.PORT || config.server.port;
 
 // catchall
 app.use('*',function(req, res) {
