@@ -4,10 +4,8 @@
     * CRUD sensor
     * CRUD capabilities
   * Sensor Methods:
-    * CRUD
     * R Historical Data
   * Historical Data:
-    * CD data items
     * validate data type & value
   * API:
     * Setup Auth

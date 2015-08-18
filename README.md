@@ -1,3 +1,3 @@
 # EllIoT
 
-The home Internet of Things API
+The Internet of Things API

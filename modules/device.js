@@ -9,7 +9,7 @@ var Device = new Schema({
   type: String,
   updated: {
     type: Date,
-    default: (+new Date())
+    default: (+new Date)
   }
 });
 
