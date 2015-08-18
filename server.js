@@ -24,7 +24,7 @@ app.use('/api/triggers', Session, Triggers);
 var port = process.env.PORT || config.server.port;
 
 // catchall
-app.use('*',function(req, res) {
+app.use('*', function(req, res) {
   res.status(404).send('404');
 });
 
