@@ -1,0 +1,12 @@
+/**
+ * Trigger Model Example
+ */
+{
+  "type": "relay",
+  "deviceId": "55d2a79ffa36af100895607a",
+  "execute": 1439869928210,
+  "actions": [{
+    "action": "toggle",
+    "value": 0
+  }],
+}
