@@ -3,8 +3,8 @@
  * Handles the routes and communication to public API
  */
 var express = require('express');
-var Sensor = require('./sensor');
-var Record = require('./sensorHistory');
+var Sensor = require('../models/sensor');
+var Record = require('../models/sensorHistory');
 
 module.exports = (function() {
   'use strict';

@@ -3,7 +3,7 @@
  * Handles the routes and communication to public API
  */
 var express = require('express');
-var Device = require('./device');
+var Device = require('../models/device');
 
 module.exports = (function() {
   'use strict';
@@ -16,6 +16,7 @@ module.exports = (function() {
 
   // Save device record
   .post('/', function(req, res) {
+    console.log('here', req.body);
 
       var device = new Device();
 

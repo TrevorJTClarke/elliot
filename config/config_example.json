@@ -11,6 +11,7 @@
     "X-Requested-With": "GENERATEMD5HASHDOMAIN"
   },
   "server": {
-    "port": 1337
+    "port": 1337,
+    "basePath": "/api"
   }
 }

@@ -3,7 +3,7 @@
  * Handles the routes and communication to public API
  */
 var express = require('express');
-var Trigger = require('./trigger');
+var Trigger = require('../models/trigger');
 
 module.exports = (function() {
   'use strict';

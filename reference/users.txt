@@ -1,0 +1,12 @@
+/**
+ * User Model Example
+ */
+{
+  "firstName": "Trevor",
+  "lastName": "Clarke",
+  "devices": ["659a8a086b87c9477f061868faf"],
+  "tokens": ["659a8a086b87c9477f061868faf"],
+  "status": "active",
+  "updated": 143248497589,
+  "lastLogin": 143248497589
+}
