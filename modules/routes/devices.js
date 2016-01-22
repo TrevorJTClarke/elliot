@@ -16,8 +16,6 @@ module.exports = (function() {
 
   // Save device record
   .post('/', function(req, res) {
-    console.log('here', req.body);
-
       var device = new Device();
 
       // store the data needed

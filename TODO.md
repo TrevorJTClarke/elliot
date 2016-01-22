@@ -8,6 +8,9 @@
   * [ ] Update README
   * [ ] Setup Host
   * [ ] Analytics
+  * [ ] System status - is this first time setup?
+  * [ ] swagger
+  * [ ] postman tests?
 
 
 

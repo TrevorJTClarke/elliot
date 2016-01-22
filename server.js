@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
 var config     = require('./config/config.json');
 var Session    = require('./modules/session');
+var Users      = require('./modules/routes/users');
 var Devices    = require('./modules/routes/devices');
 var Sensors    = require('./modules/routes/sensors');
 var Triggers   = require('./modules/routes/triggers');
@@ -17,6 +18,7 @@ app.use(bodyParser.json());
 app.all( config.server.basePath + '/*', Session);
 
 // Modules
+app.use( config.server.basePath + '/users', Users);
 app.use( config.server.basePath + '/devices', Devices);
 app.use( config.server.basePath + '/sensors', Sensors);
 app.use( config.server.basePath + '/triggers', Triggers);

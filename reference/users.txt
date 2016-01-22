@@ -4,6 +4,7 @@
 {
   "firstName": "Trevor",
   "lastName": "Clarke",
+  "permissions": "admin",
   "devices": ["659a8a086b87c9477f061868faf"],
   "tokens": ["659a8a086b87c9477f061868faf"],
   "status": "active",
